@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch EC2 Instance</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f7ff; /* Light background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #2c3e50; /* Darker text color */
+        }
+
+        .container {
+            background-color: #ffffff; /* White form background */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2c3e50; /* Darker heading color */
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .form-group:last-child {
+            margin-right: 0; /* Remove margin from the last item in the row */
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #2c3e50; /* Darker label text */
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 1em;
+            border: 2px solid #c5e1ff; /* Light blue border */
+            background-color: #f9fbff; /* Slightly lighter background */
+            color: #2c3e50; /* Dark text color */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(197, 225, 255, 0.3); /* Light shadow */
+        }
+
+        input[type="submit"] {
+            background-color: #2980b9; /* Blue background */
+            color: #ffffff; /* White text */
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1c598a; /* Darker blue on hover */
+        }
+
+        #homeButton {
+            background-color: #ffffff;
+            color: #2980b9;
+            padding: 10px 20px;
+            border: 2px solid #c5e1ff; /* Light blue border */
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        #homeButton:hover {
+            background-color: #c5e1ff;
+            color: #2c3e50;
+        }
+
+        /* Add media query for responsiveness */
+        @media (max-width: 600px) {
+            .form-row {
+                flex-direction: column;
+            }
+
+            .form-group {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="homeButton" onclick="window.location.href='index.html'">Home</button>
+        <h1>Launch EC2 Instance</h1>
+        <form action="/cgi-bin/launch_instance.py" method="post">
+            <!-- First row: Region and Instance Type -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="region">Region:</label>
+                    <input type="text" id="region" name="region" required>
+                </div>
+                <div class="form-group">
+                    <label for="instance_type">Instance Type:</label>
+                    <input type="text" id="instance_type" name="instance_type" required>
+                </div>
+            </div>
+
+            <!-- Second row: AMI ID and Key Pair Name -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="ami_id">AMI ID:</label>
+                    <input type="text" id="ami_id" name="ami_id" required>
+                </div>
+                <div class="form-group">
+                    <label for="key_name">Key Pair Name:</label>
+                    <input type="text" id="key_name" name="key_name" required>
+                </div>
+            </div>
+
+            <!-- Third row: AWS Access Key and AWS Secret Key -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="access_key">AWS Access Key:</label>
+                    <input type="text" id="access_key" name="access_key" required>
+                </div>
+                <div class="form-group">
+                    <label for="secret_key">AWS Secret Key:</label>
+                    <input type="password" id="secret_key" name="secret_key" required>
+                </div>
+            </div>
+
+            <input type="submit" value="Launch Instance">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Terminal</title>
+    <style>
+        body {
+            background: #eef2f7; /* Light background */
+            font-family: 'Courier New', Courier, monospace; /* Monospace font for terminal */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .terminal {
+            width: 80%;
+            max-width: 900px;
+            border: 3px solid #4da6ff; /* Blue border */
+            border-radius: 12px;
+            background: #fff; /* White background */
+            box-shadow: 0px 0px 25px rgba(77, 166, 255, 0.4); /* Glowing shadow */
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .terminal input {
+            width: calc(100% - 20px);
+            border: none;
+            background-color: transparent; /* Transparent background for the input */
+            color: #333; /* Dark text color */
+            font-family: 'Courier New', Courier, monospace;
+            padding: 15px;
+            box-sizing: border-box;
+            outline: none;
+            font-size: 18px;
+            margin-top: 10px;
+            border-bottom: 2px solid #4da6ff; /* Light blue underline */
+            transition: all 0.3s ease;
+        }
+
+        .terminal input:focus {
+            border-bottom: 2px solid #00bfff; /* Highlight on focus */
+        }
+
+        #output {
+            max-height: 300px;
+            padding: 10px;
+            color: #333; /* Dark text for output */
+            font-family: 'Courier New', Courier, monospace;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9; /* Light background for output */
+            border: 1px solid #ccc;
+            transition: all 0.5s ease;
+        }
+
+        /* Prompt animation */
+        .prompt {
+            color: #4da6ff;
+            font-weight: bold;
+        }
+
+        .home-btn {
+            background-color: #4da6ff; /* Blue button */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .home-btn:hover {
+            background-color: #00bfff; /* Lighter blue on hover */
+        }
+
+        /* Typing effect */
+        .typing {
+            display: inline-block;
+            border-right: 2px solid;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(30, end), blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            from, to {
+                border-color: transparent;
+            }
+            50% {
+                border-color: black;
+            }
+        }
+
+        /* Scrollbar customization */
+        #output::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #output::-webkit-scrollbar-thumb {
+            background: #4da6ff;
+            border-radius: 5px;
+        }
+
+        #output::-webkit-scrollbar-track {
+            background: #f0f7ff;
+        }
+    </style>
+</head>
+<body>
+    <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+    <div class="terminal">
+        <div id="output"></div>
+        <input type="text" id="input" placeholder="Enter command..." autofocus autocomplete="off" onkeydown="handleInput(event)">
+    </div>
+
+    <script>
+        function handleInput(event) {
+            if (event.key === 'Enter') {
+                var input = document.getElementById('input');
+                var command = input.value.trim();
+                input.value = '';
+
+                if (command === '') return;
+
+                var output = document.getElementById('output');
+                var newLine = document.createElement('div');
+                newLine.innerHTML = '<span class="prompt">$</span> <span class="command typing">' + command + '</span>';
+                output.appendChild(newLine);
+
+                // Fake response for demonstration
+                setTimeout(() => {
+                    var responseLine = document.createElement('div');
+                    responseLine.innerHTML = '<span>' + fakeResponse(command) + '</span>';
+                    output.appendChild(responseLine);
+                    output.scrollTop = output.scrollHeight;
+                }, 1000);
+            }
+        }
+
+        function fakeResponse(command) {
+            if (command.toLowerCase() === 'help') {
+                return "Available commands: help, exit, clear, version";
+            } else if (command.toLowerCase() === 'version') {
+                return "Linux Terminal Emulator v1.0.0";
+            } else if (command.toLowerCase() === 'clear') {
+                document.getElementById('output').innerHTML = '';
+                return "";
+            } else if (command.toLowerCase() === 'exit') {
+                window.close();
+                return "Exiting...";
+            } else {
+                return "Command not found: " + command;
+            }
+        }
+    </script>
+</body>
+</html>

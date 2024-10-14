@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice to Text</title>
+    <style>
+        body {
+            font-family:'Arial', sans-serif;
+            background-color: #c5e1ff; /* Light blue background */
+            color: #000; /* Black text color */
+            text-align: center;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            margin: 20px;
+            color: #000;
+        }
+
+        #text {
+            background-color: #fff; /* White background for text area */
+            color: #000;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 80%; /* Width of text area */
+            max-width: 600px; /* Maximum width */
+            min-height: 200px; /* Minimum height */
+            margin: 20px 0; /* Margin around text area */
+            overflow-y: auto; /* Add scroll if content overflows */
+            word-wrap: break-word; /* Ensure words wrap within the box */
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center buttons in the row */
+            gap: 20px; /* Space between buttons */
+            margin: 20px 0; /* Margin above the buttons */
+        }
+
+        #startButton, #stopButton, #homeButton {
+            padding: 15px 30px;
+            border: none; /* No border */
+            border-radius: 8px; /* Rounded corners */
+            background-color: #007BFF; /* Blue background */
+            color: #fff; /* White text */
+            font-size: 18px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+        }
+
+        #startButton:hover, #stopButton:hover, #homeButton:hover {
+           /* background-color: #82c5ef;  Darker blue on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+            if (!SpeechRecognition) {
+                alert("Your browser does not support Speech Recognition. Please use a supported browser like Chrome.");
+                return;
+            }
+
+            var recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = true;
+            recognition.lang = "en-US";
+
+            recognition.onresult = function(event) {
+                var final_transcript = "";
+                for (var i = event.resultIndex; i < event.results.length; ++i) {
+                    if (event.results[i].isFinal) {
+                        final_transcript += event.results[i][0].transcript + " "; // Added space for better readability
+                    }
+                }
+                document.getElementById("text").innerHTML = final_transcript;
+            };
+
+            recognition.onerror = function(event) {
+                console.error("Speech Recognition Error: ", event.error);
+                alert("An error occurred: " + event.error);
+            };
+
+            recognition.onstart = function() {
+                console.log("Speech recognition service has started");
+            };
+
+            recognition.onend = function() {
+                console.log("Speech recognition service disconnected");
+            };
+
+            document.getElementById('startButton').onclick = function() {
+                recognition.start();
+            };
+
+            document.getElementById('stopButton').onclick = function() {
+                recognition.stop();
+            };
+
+            document.getElementById('homeButton').onclick = function() {
+                window.location.href = 'index.html'; // Replace with your home page URL
+            };
+        }
+    </script>
+</head>
+<body>
+    <h1>Voice to Text</h1>
+    <div id="text">Start Speaking</div>
+    <div class="button-container">
+        <button id="startButton">Start Speaking</button>
+        <button id="stopButton">Stop Speaking</button>
+    </div>
+    <button id="homeButton">Home</button>
+</body>
+</html>

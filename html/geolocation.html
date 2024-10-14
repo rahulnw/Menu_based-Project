@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coordinates</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Changed font to Arial */
+            background: #ffffff; /* Gradient background */
+            color: #0e0d0d; /* Light gray text for contrast */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+
+        h1 {
+            margin-top: 50px;
+            color: #191919; /* Light gray text */
+            font-size: 36px; /* Larger font size for emphasis */
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Light glow effect */
+        }
+
+        .container {
+            display: inline-block;
+            background-color: #c5e1ff; /* Set background color to #c5e1ff */
+            padding: 40px; /* Increased padding for a bigger box */
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Light shadow */
+            backdrop-filter: blur(8px); /* Frosted glass effect */
+            max-width: 800px; /* Maximum width increased */
+            margin: 20px auto; /* Center form and add margin from top and bottom */
+            position: relative; /* Relative positioning for stacking context */
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 18px;
+            color: #1c1c1c; /* Dark gray text for better contrast */
+        }
+
+        input[type="text"] {
+            width: calc(100% - 22px); /* Adjust width to accommodate padding and border */
+            padding: 10px;
+            margin-right: 10px;
+            border: 2px ; /* Dark gray border */
+            border-radius: 8px;
+            background-color: #ffffff; /* White background for input */
+            color: #000000; /* Black text */
+            font-size: 16px;
+            box-sizing: border-box; /* Ensure padding and border are included in width */
+            transition: background-color 0.3s ease; /* Smooth transition for background color */
+        }
+
+        input[type="text"]:focus {
+            background-color: #e0e0e0; /* Slightly lighter background on focus */
+            outline: none;
+        }
+
+        button {
+            background-color: #417ee8; /* Dark gray background */
+            color: #ffffff; /* White text */
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+            margin-top: 15px;
+        }
+
+        button:hover {
+            /*background-color: #333333;  Slightly darker gray for hover effect */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        #homeButton {
+            position: fixed;
+            bottom: 30px; /* Position it at the bottom of the viewport */
+            right: 700px;
+            background-color: #2759e3; /* Dark gray background */
+            color: #ffffff; /* White text */
+            width: 120px;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+        }
+
+        #homeButton:hover {
+             /* Slightly darker gray for hover effect */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        #result {
+            background-color: rgb(255, 255, 255); /* Very dark background for result area */
+            padding: 20px;
+            
+            border-radius: 10px;
+           /* box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* Light shadow */
+            max-width: 90%;
+            margin-top: 20px; /* Margin from top */
+            color: #2a2929; /* Light gray text */
+            font-size: 18px;
+            word-wrap: break-word;
+            white-space: pre-wrap; /* Preserve whitespace formatting in JSON output */
+        }
+    </style>
+</head>
+<body>
+    <h1>Coordinates</h1>
+    
+    <!-- Container for Form Elements -->
+    <div class="container">
+        <!-- Form to Input Location -->
+        <form id="locationForm">
+            <label for="location">Enter location:</label>
+            <input type="text" id="location" name="location" placeholder="e.g. New York">
+            <button type="submit">Get Geocoordinates</button>
+        </form>
+        
+        <!-- Div to Display Result -->
+        <div id="result"></div>
+    </div>
+    
+    <button id="homeButton" onclick="window.location.href='index.html'">Home</button>
+    
+    <script>
+        document.getElementById('locationForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting the traditional way
+            var location = document.getElementById('location').value;
+
+            if (location) {
+                fetch('/cgi-bin/geolocation.py?location=' + encodeURIComponent(location))
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.error) {
+                            document.getElementById('result').innerText = data.error;
+                        } else {
+                            document.getElementById('result').innerText = 
+                                `Latitude: ${data.latitude}, Longitude: ${data.longitude}`;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        document.getElementById('result').innerText = "An error occurred while fetching the data.";
+                    });
+            } else {
+                document.getElementById('result').innerText = "Please enter a location.";
+            }
+        });
+    </script>
+</body>
+</html>

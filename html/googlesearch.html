@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Search</title>
+    <link rel="icon" href="data:,">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #c5e1ff; /* Main theme color */
+            color: #1c1c1c; /* Dark gray text */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            justify-content: center; /* Center the content vertically */
+        }
+
+        h2 {
+            color: #1c1c1c; /* Dark text color */
+            margin: 0 0 20px;
+            font-size: 2.5rem; /* Adjusted font size */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Soft shadow */
+        }
+
+        #searchQuery {
+            width: 80%; /* Reduced width */
+            max-width: 600px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #1c1c1c; /* Dark gray border */
+            border-radius: 16px;
+            font-size: 18px;
+            background-color: #ffffff; /* White background for input */
+            color: #1c1c1c; /* Dark text */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #searchBtn {
+            padding: 12px 25px;
+            font-size: 18px;
+            background-color: #0579f6; /* Dark button color */
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #searchBtn:hover {
+            transform: scale(1.05);
+        }
+
+        #results {
+            width: 90%; /* Slightly wider results area */
+            max-width: 700px;
+            margin-top: 20px;
+            background-color: #ffffff; /* Light gray background for results */
+            border: 1px solid #1c1c1c; /* Dark gray border */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            color: #1c1c1c; /* Dark gray text */
+            overflow-y: auto; /* Enable scrolling if results exceed height */
+            max-height: 600px; /* Maximum height for results */
+        }
+
+        .result-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd; /* Divider between results */
+        }
+
+        .result-item:last-child {
+            border-bottom: none; /* Remove bottom border for last item */
+        }
+
+        .result-item h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #1c1c1c; /* Dark text for titles */
+        }
+
+        .result-item a {
+            color: #1c1c1c; /* Dark text for links */
+            text-decoration: none;
+        }
+
+        .result-item a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        .result-item p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555; /* Slightly lighter gray for snippets */
+        }
+
+        #homeButton {
+            position: absolute; /* Position home button */
+            bottom: 20px;
+            right: 720px;
+            background-color: #0579f6; /* Button color */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 10px 15px; /* Padding for button */
+            border-radius: 8px; /* Rounded corners */
+            cursor: pointer;
+            font-size: 16px; /* Font size */
+            transition: background-color 0.3s ease; /* Transition effect */
+        }
+
+        #homeButton:hover {
+            background-color: #045bb5; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <button id="homeButton" onclick="window.location.href='index.html'">Home</button>
+    <h2>Custom Search</h2>
+    <input type="text" id="searchQuery" placeholder="Enter your search query...">
+    <button id="searchBtn">Search</button>
+    <div id="results"></div>
+
+    <script>
+        document.getElementById("searchBtn").addEventListener("click", function() {
+            var query = document.getElementById("searchQuery").value.trim();
+            if (query !== "") {
+                fetch('/cgi-bin/google_search.py?query=' + encodeURIComponent(query))
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Search results:", data);
+                    displayResults(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching search results:', error);
+                });
+            }
+        });
+
+        function displayResults(results) {
+            var resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = ""; // Clear previous results
+            if (results && results.length > 0) {
+                results.forEach(function(result) {
+                    var resultDiv = document.createElement("div");
+                    resultDiv.classList.add("result-item");
+                    resultDiv.innerHTML = `
+                        <h3><a href="${result.link}" target="_blank">${result.title}</a></h3>
+                        <p>${result.snippet}</p>
+                        <p><a href="${result.link}" target="_blank">${result.link}</a></p>
+                    `;
+                    resultsDiv.appendChild(resultDiv);
+                });
+            } else {
+                resultsDiv.innerHTML = "<p>No results found.</p>"; // Message if no results
+            }
+        }
+    </script>
+</body>
+</html>

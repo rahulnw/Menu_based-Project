@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send SMS</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f7ff; /* Light background color */
+            color: #333; /* Dark text color for contrast */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #2c3e50; /* Darker heading color */
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        form {
+            background-color: #ffffff; /* White background for form */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            width: 100%;
+            max-width: 450px;
+            box-sizing: border-box;
+        }
+
+        label {
+            font-weight: bold;
+            color: #34495e; /* Darker label color */
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 20px;
+            border: 1px solid #c5e1ff; /* Soft blue border */
+            border-radius: 8px;
+            background-color: #f9fbff; /* Light blue background */
+            color: #34495e; /* Darker text color */
+            font-size: 1em;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus, textarea:focus {
+            border-color: #2980b9; /* Darker blue on focus */
+            outline: none;
+        }
+
+        textarea {
+            height: 120px; /* Set height for textarea */
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: #2980b9; /* Primary blue button */
+            color: #ffffff;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1c598a; /* Darker blue on hover */
+        }
+
+        /* Add some padding to the main content */
+        .container {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Send SMS</h1>
+        <form action="/cgi-bin/send_sms.py" method="post">
+            <label for="sender_number">Sender's Mobile Number (in E.164 format, e.g., +1234567890):</label>
+            <input type="text" id="sender_number" name="sender_number" required>
+
+            <label for="message_body">Message:</label>
+            <textarea id="message_body" name="message_body" required></textarea>
+
+            <input type="submit" value="Send SMS">
+        </form>
+    </div>
+
+</body>
+</html>
