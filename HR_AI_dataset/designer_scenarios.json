@@ -1,0 +1,1442 @@
+[
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Game Designer incorporated Level Design into their design process.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Level Design.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Fashion Designer in using Textile Design.",
+            "input": "Candidate's response: 'Created a design using Textile Design for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Fashion Designer's work with Pattern Making met design expectations.",
+            "input": "Candidate's response: 'Created a design using Pattern Making for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Graphic Designer's use of Adobe Photoshop impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Adobe Photoshop.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Game Designer in applying Level Design to real-world scenarios.",
+            "input": "Candidate's response: 'Developed an innovative solution using Level Design.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the UI/UX Designer's application of Adobe XD contribute to project success?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Adobe XD into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Fashion Designer's application of Textile Design contribute to project success?",
+            "input": "Candidate's response: 'Optimized an existing design by applying Textile Design.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Game Designer's approach to Level Design and suggest improvements.",
+            "input": "Candidate's response: 'Developed an innovative solution using Level Design.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in Gameplay Mechanics.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Gameplay Mechanics.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the UI/UX Designer's work with User Research met design expectations.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging User Research.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "4"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Fashion Designer's application of Trend Forecasting contribute to project success?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Trend Forecasting.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Industrial Designer incorporated Product Prototyping into their design process.",
+            "input": "Candidate's response: 'Developed an innovative solution using Product Prototyping.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Graphic Designer demonstrated expertise in Typography.",
+            "input": "Candidate's response: 'Developed an innovative solution using Typography.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Game Designer's work with Character Development met design expectations.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Character Development.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the UI/UX Designer's work with Prototyping met design expectations.",
+            "input": "Candidate's response: 'Developed an innovative solution using Prototyping.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Motion Designer's execution of Storyboarding aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Storyboarding into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Game Designer successfully apply Gameplay Mechanics to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Developed an innovative solution using Gameplay Mechanics.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Motion Designer demonstrated expertise in Cinematic Effects.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Cinematic Effects into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Graphic Designer's work with Branding met design expectations.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Branding.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Motion Designer's approach to After Effects and suggest improvements.",
+            "input": "Candidate's response: 'Created a design using After Effects for a client project.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "0"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Game Designer's application of World Building contribute to project success?",
+            "input": "Candidate's response: 'Created a design using World Building for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Motion Designer in applying Storyboarding to real-world scenarios.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Storyboarding.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Industrial Designer's approach to Product Prototyping and suggest improvements.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Product Prototyping into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Game Designer's use of Character Development impacted the final outcome.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Character Development.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Industrial Designer's execution of Ergonomics aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Ergonomics into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Motion Designer's use of After Effects impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying After Effects.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Game Designer's execution of Gameplay Mechanics aligned with industry standards?",
+            "input": "Candidate's response: 'Developed an innovative solution using Gameplay Mechanics.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the UI/UX Designer's execution of Adobe XD aligned with industry standards?",
+            "input": "Candidate's response: 'Developed an innovative solution using Adobe XD.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the UI/UX Designer's work with Prototyping met design expectations.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Prototyping into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the UI/UX Designer in applying Usability Testing to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Usability Testing.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Industrial Designer's execution of 3D Modeling aligned with industry standards?",
+            "input": "Candidate's response: 'Optimized an existing design by applying 3D Modeling.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the UI/UX Designer's use of Adobe XD impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Adobe XD.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Graphic Designer in using Illustration.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Illustration into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Fashion Designer in using Garment Construction.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Garment Construction.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Fashion Designer's work with Sustainable Fashion met design expectations.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Sustainable Fashion into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Graphic Designer incorporated Vector Graphics into their design process.",
+            "input": "Candidate's response: 'Developed an innovative solution using Vector Graphics.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Fashion Designer successfully apply Trend Forecasting to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Trend Forecasting into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Motion Designer successfully apply After Effects to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate After Effects into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Motion Designer demonstrated expertise in Storyboarding.",
+            "input": "Candidate's response: 'Created a design using Storyboarding for a client project.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Game Designer incorporated Level Design into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Level Design into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Game Designer successfully apply Level Design to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Level Design.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Industrial Designer's approach to AutoCAD and suggest improvements.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate AutoCAD into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Graphic Designer's use of Color Theory impacted the final outcome.",
+            "input": "Candidate's response: 'Created a design using Color Theory for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Game Designer incorporated Unreal Engine into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Unreal Engine into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Graphic Designer incorporated Typography into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Typography into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Graphic Designer demonstrated expertise in Illustration.",
+            "input": "Candidate's response: 'Developed an innovative solution using Illustration.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Graphic Designer's execution of Vector Graphics aligned with industry standards?",
+            "input": "Candidate's response: 'Created a design using Vector Graphics for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Industrial Designer in using AutoCAD.",
+            "input": "Candidate's response: 'Developed an innovative solution using AutoCAD.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Graphic Designer's approach to Branding and suggest improvements.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Branding.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Fashion Designer's approach to Garment Construction and suggest improvements.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Garment Construction into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "8"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Game Designer incorporated Level Design into their design process.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Level Design.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Motion Designer's application of Kinetic Typography contribute to project success?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Kinetic Typography.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Motion Designer incorporated Visual Effects into their design process.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Visual Effects.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Fashion Designer's application of Textile Design contribute to project success?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Textile Design into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Game Designer's execution of Unity aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Unity.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Industrial Designer incorporated 3D Modeling into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate 3D Modeling into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the UI/UX Designer's approach to Usability Testing and suggest improvements.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Usability Testing.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the UI/UX Designer's execution of Usability Testing aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Usability Testing.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in Character Development.",
+            "input": "Candidate's response: 'Developed an innovative solution using Character Development.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Game Designer in using World Building.",
+            "input": "Candidate's response: 'Created a design using World Building for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "0"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Game Designer incorporated Unreal Engine into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Unreal Engine into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the UI/UX Designer's approach to User Research and suggest improvements.",
+            "input": "Candidate's response: 'Created a design using User Research for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Industrial Designer incorporated AutoCAD into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate AutoCAD into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Industrial Designer in using Ergonomics.",
+            "input": "Candidate's response: 'Created a design using Ergonomics for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Motion Designer's use of 3D Animation impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying 3D Animation.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Graphic Designer incorporated Color Theory into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Color Theory into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Graphic Designer's work with Adobe Photoshop met design expectations.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Adobe Photoshop.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Industrial Designer in using Product Prototyping.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Product Prototyping into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Industrial Designer in applying AutoCAD to real-world scenarios.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate AutoCAD into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the UI/UX Designer's execution of User Research aligned with industry standards?",
+            "input": "Candidate's response: 'Developed an innovative solution using User Research.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Motion Designer's approach to Storyboarding and suggest improvements.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Storyboarding.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Graphic Designer's execution of Vector Graphics aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Fashion Designer in applying Pattern Making to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Pattern Making.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Industrial Designer in using Material Selection.",
+            "input": "Candidate's response: 'Developed an innovative solution using Material Selection.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Game Designer in applying Gameplay Mechanics to real-world scenarios.",
+            "input": "Candidate's response: 'Developed an innovative solution using Gameplay Mechanics.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Game Designer in applying Level Design to real-world scenarios.",
+            "input": "Candidate's response: 'Created a design using Level Design for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Industrial Designer's use of Ergonomics impacted the final outcome.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Ergonomics into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Motion Designer in applying Cinematic Effects to real-world scenarios.",
+            "input": "Candidate's response: 'Created a design using Cinematic Effects for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in World Building.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate World Building into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Fashion Designer demonstrated expertise in Garment Construction.",
+            "input": "Candidate's response: 'Created a design using Garment Construction for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the UI/UX Designer's execution of Wireframing aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Wireframing.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Motion Designer in using 3D Animation.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate 3D Animation into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the UI/UX Designer demonstrated expertise in Prototyping.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Prototyping.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Fashion Designer's work with Sustainable Fashion met design expectations.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Sustainable Fashion into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Industrial Designer's approach to Manufacturing Process and suggest improvements.",
+            "input": "Candidate's response: 'Developed an innovative solution using Manufacturing Process.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Game Designer in using Level Design.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Level Design.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the UI/UX Designer's execution of Figma aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Figma into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Industrial Designer's use of AutoCAD impacted the final outcome.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging AutoCAD.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Game Designer in using Character Development.",
+            "input": "Candidate's response: 'Created a design using Character Development for a client project.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Game Designer's execution of Unity aligned with industry standards?",
+            "input": "Candidate's response: 'Developed an innovative solution using Unity.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "9"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Fashion Designer's execution of Sustainable Fashion aligned with industry standards?",
+            "input": "Candidate's response: 'Optimized an existing design by applying Sustainable Fashion.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the UI/UX Designer's application of User Research contribute to project success?",
+            "input": "Candidate's response: 'Developed an innovative solution using User Research.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the UI/UX Designer's approach to Figma and suggest improvements.",
+            "input": "Candidate's response: 'Created a design using Figma for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Motion Designer's use of Visual Effects impacted the final outcome.",
+            "input": "Candidate's response: 'Developed an innovative solution using Visual Effects.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Game Designer's application of Level Design contribute to project success?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Level Design.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Motion Designer's approach to Visual Effects and suggest improvements.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Visual Effects into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Fashion Designer's approach to Textile Design and suggest improvements.",
+            "input": "Candidate's response: 'Created a design using Textile Design for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Game Designer incorporated Unity into their design process.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Unity.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Motion Designer's work with After Effects met design expectations.",
+            "input": "Candidate's response: 'Developed an innovative solution using After Effects.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Motion Designer demonstrated expertise in Cinematic Effects.",
+            "input": "Candidate's response: 'Developed an innovative solution using Cinematic Effects.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Fashion Designer demonstrated expertise in Pattern Making.",
+            "input": "Candidate's response: 'Developed an innovative solution using Pattern Making.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Motion Designer successfully apply After Effects to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Optimized an existing design by applying After Effects.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Fashion Designer incorporated Trend Forecasting into their design process.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Trend Forecasting.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the UI/UX Designer's use of Wireframing impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Wireframing.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Graphic Designer in applying Branding to real-world scenarios.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Branding into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Fashion Designer's execution of Textile Design aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Textile Design.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Motion Designer demonstrated expertise in After Effects.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate After Effects into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Graphic Designer in applying Vector Graphics to real-world scenarios.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Graphic Designer's use of Vector Graphics impacted the final outcome.",
+            "input": "Candidate's response: 'Developed an innovative solution using Vector Graphics.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Graphic Designer in using Color Theory.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Color Theory.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in Gameplay Mechanics.",
+            "input": "Candidate's response: 'Developed an innovative solution using Gameplay Mechanics.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Industrial Designer's application of AutoCAD contribute to project success?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging AutoCAD.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the UI/UX Designer successfully apply Adobe XD to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Developed an innovative solution using Adobe XD.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Graphic Designer demonstrated expertise in Adobe Photoshop.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Adobe Photoshop into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Graphic Designer in applying Vector Graphics to real-world scenarios.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Fashion Designer's work with Sustainable Fashion met design expectations.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Sustainable Fashion.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Fashion Designer's application of Textile Design contribute to project success?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Textile Design.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the UI/UX Designer in using User Research.",
+            "input": "Candidate's response: 'Developed an innovative solution using User Research.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the UI/UX Designer successfully apply User Research to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Created a design using User Research for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in Character Development.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Character Development.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "5"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Graphic Designer's work with Branding met design expectations.",
+            "input": "Candidate's response: 'Created a design using Branding for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Motion Designer successfully apply Kinetic Typography to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Kinetic Typography.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the UI/UX Designer in using User Research.",
+            "input": "Candidate's response: 'Optimized an existing design by applying User Research.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Industrial Designer in applying 3D Modeling to real-world scenarios.",
+            "input": "Candidate's response: 'Developed an innovative solution using 3D Modeling.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Industrial Designer's work with Product Prototyping met design expectations.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Product Prototyping into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Motion Designer's execution of After Effects aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging After Effects.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Motion Designer's approach to After Effects and suggest improvements.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging After Effects.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Fashion Designer's use of Pattern Making impacted the final outcome.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Pattern Making.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Game Designer in applying Level Design to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Level Design.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Game Designer successfully apply World Building to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate World Building into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Industrial Designer in using 3D Modeling.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging 3D Modeling.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Graphic Designer's work with Color Theory met design expectations.",
+            "input": "Candidate's response: 'Created a design using Color Theory for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Graphic Designer incorporated Adobe Photoshop into their design process.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Adobe Photoshop.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Graphic Designer incorporated Vector Graphics into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Motion Designer successfully apply Visual Effects to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Created a design using Visual Effects for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the UI/UX Designer's use of Adobe XD impacted the final outcome.",
+            "input": "Candidate's response: 'Developed an innovative solution using Adobe XD.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Game Designer's execution of Level Design aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Level Design into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Motion Designer's execution of Kinetic Typography aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Kinetic Typography.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Fashion Designer's work with Textile Design met design expectations.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Textile Design.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Game Designer in applying Level Design to real-world scenarios.",
+            "input": "Candidate's response: 'Developed an innovative solution using Level Design.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "5"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Fashion Designer's application of Draping contribute to project success?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Draping into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Fashion Designer's application of Garment Construction contribute to project success?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Garment Construction into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Motion Designer's application of Cinematic Effects contribute to project success?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Cinematic Effects into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Game Designer's application of Unity contribute to project success?",
+            "input": "Candidate's response: 'Created a design using Unity for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Graphic Designer successfully apply Color Theory to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Color Theory into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in Unity.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Unity into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Game Designer in using World Building.",
+            "input": "Candidate's response: 'Created a design using World Building for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Game Designer in using World Building.",
+            "input": "Candidate's response: 'Developed an innovative solution using World Building.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Graphic Designer's approach to Branding and suggest improvements.",
+            "input": "Candidate's response: 'Created a design using Branding for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Industrial Designer in applying Product Prototyping to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Product Prototyping.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "9"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Graphic Designer's execution of Color Theory aligned with industry standards?",
+            "input": "Candidate's response: 'Created a design using Color Theory for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Industrial Designer in applying Material Selection to real-world scenarios.",
+            "input": "Candidate's response: 'Created a design using Material Selection for a client project.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Graphic Designer's execution of Adobe Photoshop aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Adobe Photoshop into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the UI/UX Designer successfully apply Adobe XD to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Developed an innovative solution using Adobe XD.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Graphic Designer successfully apply Color Theory to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Color Theory.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Game Designer successfully apply World Building to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Developed an innovative solution using World Building.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Fashion Designer's use of Sustainable Fashion impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Sustainable Fashion.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the UI/UX Designer's approach to Prototyping and suggest improvements.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Prototyping into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Industrial Designer's execution of AutoCAD aligned with industry standards?",
+            "input": "Candidate's response: 'Collaborated with a team to integrate AutoCAD into the final product.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Industrial Designer's use of Manufacturing Process impacted the final outcome.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Manufacturing Process.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "9"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Graphic Designer demonstrated expertise in Branding.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Branding.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Game Designer's use of Gameplay Mechanics impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Gameplay Mechanics.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Industrial Designer in applying Ergonomics to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Ergonomics.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Graphic Designer in using Vector Graphics.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Motion Designer in applying After Effects to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying After Effects.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Graphic Designer's work with Vector Graphics met design expectations.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Evaluate the effectiveness of the Game Designer in using Level Design.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Level Design.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Fashion Designer in applying Garment Construction to real-world scenarios.",
+            "input": "Candidate's response: 'Developed an innovative solution using Garment Construction.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Graphic Designer in applying Adobe Photoshop to real-world scenarios.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Adobe Photoshop.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "5"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Motion Designer's execution of Kinetic Typography aligned with industry standards?",
+            "input": "Candidate's response: 'Created a design using Kinetic Typography for a client project.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "0"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Industrial Designer's application of Product Prototyping contribute to project success?",
+            "input": "Candidate's response: 'Created a design using Product Prototyping for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the UI/UX Designer's work with Figma met design expectations.",
+            "input": "Candidate's response: 'Developed an innovative solution using Figma.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the UI/UX Designer demonstrated expertise in Prototyping.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Prototyping.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Graphic Designer's approach to Adobe Photoshop and suggest improvements.",
+            "input": "Candidate's response: 'Created a design using Adobe Photoshop for a client project.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "10"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Game Designer's approach to Unity and suggest improvements.",
+            "input": "Candidate's response: 'Developed an innovative solution using Unity.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the UI/UX Designer's work with Adobe XD met design expectations.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Adobe XD into the final product.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Motion Designer's use of Storyboarding impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Storyboarding.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "3"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Game Designer in applying Level Design to real-world scenarios.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Level Design.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the UI/UX Designer's use of Prototyping impacted the final outcome.",
+            "input": "Candidate's response: 'Created a design using Prototyping for a client project.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Explain whether the Game Designer's work with Gameplay Mechanics met design expectations.",
+            "input": "Candidate's response: 'Developed an innovative solution using Gameplay Mechanics.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "8"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the UI/UX Designer's approach to Prototyping and suggest improvements.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Prototyping.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Discuss how the Fashion Designer's use of Pattern Making impacted the final outcome.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Pattern Making.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Game Designer's execution of Gameplay Mechanics aligned with industry standards?",
+            "input": "Candidate's response: 'Developed an innovative solution using Gameplay Mechanics.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Industrial Designer's approach to Material Selection and suggest improvements.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Material Selection.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "2"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the UI/UX Designer's application of Prototyping contribute to project success?",
+            "input": "Candidate's response: 'Developed an innovative solution using Prototyping.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Motion Designer incorporated 3D Animation into their design process.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate 3D Animation into the final product.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Industrial Designer's approach to Product Prototyping and suggest improvements.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Product Prototyping.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Motion Designer's execution of Cinematic Effects aligned with industry standards?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Cinematic Effects.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Graphic Designer demonstrated expertise in Vector Graphics.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Vector Graphics into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "How did the Industrial Designer's application of Manufacturing Process contribute to project success?",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Manufacturing Process.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "9"
+        }
+    ],
+    [
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Fashion Designer successfully apply Pattern Making to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Developed an innovative solution using Pattern Making.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the UI/UX Designer incorporated Prototyping into their design process.",
+            "input": "Candidate's response: 'Created a design using Prototyping for a client project.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "4"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Industrial Designer in applying Manufacturing Process to real-world scenarios.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Manufacturing Process.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "8"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Rate the proficiency of the Graphic Designer in applying Branding to real-world scenarios.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Branding.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Did the Fashion Designer successfully apply Garment Construction to enhance the project? Explain why.",
+            "input": "Candidate's response: 'Developed an innovative solution using Garment Construction.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Was the Graphic Designer's execution of Branding aligned with industry standards?",
+            "input": "Candidate's response: 'Optimized an existing design by applying Branding.'",
+            "output": "The candidate showed strong potential but lacked refinement in execution.",
+            "scoring": "6"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Fashion Designer's approach to Draping and suggest improvements.",
+            "input": "Candidate's response: 'Collaborated with a team to integrate Draping into the final product.'",
+            "output": "The project was completed with minor improvements needed.",
+            "scoring": "7"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Analyze how the Fashion Designer incorporated Textile Design into their design process.",
+            "input": "Candidate's response: 'Optimized an existing design by applying Textile Design.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "0"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Assess the Fashion Designer's approach to Pattern Making and suggest improvements.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Pattern Making.'",
+            "output": "The final design was well-received and exceeded expectations.",
+            "scoring": "1"
+        },
+        {
+            "type": "cot_reasoning",
+            "instruction": "Provide feedback on how well the Game Designer demonstrated expertise in Character Development.",
+            "input": "Candidate's response: 'Overcame a design challenge by leveraging Character Development.'",
+            "output": "The work did not fully meet the objectives and required further iterations.",
+            "scoring": "2"
+        }
+    ]
+]
